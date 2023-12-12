@@ -1,0 +1,98 @@
+#CSSselectors {
+    text-align: center;
+    color: orange;
+    font-size: small;
+}
+body {
+    background-image: url(images/img_tree-png.png)
+}
+.paras {
+    color: black;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+}
+* {
+    font-style: italic;
+    border-color: blue;
+}
+h2, h3 {
+    text-align: center; 
+    font-style: italic;
+    font-size: large;
+    color: orange;
+}
+p {
+    color: hotpink;
+    background-color: #fc9;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+div {
+    background-color: orange;
+
+}
+div.dot {
+    border-style: dotted;
+}
+div {
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+}
+p3 {
+    height: 100px;
+    max-width: 500px;
+    background-color: powderblue;
+    border: 15px solid green;
+}
+table {
+    display: block;
+}
+p {
+    display: block;
+}
+ul {
+    list-style-type: circle;
+}
+.nav {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    overflow: hidden;
+  }
+li a {
+    display: block;
+    width: 60px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    
+}
+li {
+    float: left;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+.active {
+    background-color: #04aa6d;
+    color: white;
+}
