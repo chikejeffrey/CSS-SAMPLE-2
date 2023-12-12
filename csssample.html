@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TUTORIALS WORK SAMPLES ON W3SCHOOLS</title>
+    <link rel="stylesheet" href="csssample.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+    </ul>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>    
+<div class="dropdown">
+    <span>Mouse over me</span>
+    <div class="dropdown-content">
+        <p>Hello World!</p>
+    </div>
+</div>
+
+<style>
+    /* Style The Dropdown Button */
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+    </style>
+    
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+<h1 id="CSSselectors"> CSS SELECTORS AS DEFINED BY W3SCHOOLS</h1>
+<p class="paras">
+    So far in CSS i have learnt all types of styling from previous samples shown in HTML tutorials<br>
+    and i can safely say i can perform basic operations of CSS attributes that interface with HTML<br>
+    elements. 
+</p>
+<h2>
+    GROUP SELECTORS
+</h2>
+<h3> 
+    END PAGE FOR SELECTORS
+</h3>
+    <img src="images/flower.jpg">
+<p>
+    Today's lessons on CSS is based off of CSS Colors and its forms which are in the forms of RGB, HEX and the rest<br>
+    Samples on all forms will be displayed on the external CSS folder linked to this HTML document.
+</p>
+<div>
+    On a seperate note, Opacity of colors is deemed relevant as to the study of CSS colors, tutorials on Opacity are<br>
+    highlighted on W3SCHOOL and some of the pratical samples will be displayed on our styling document.
+</div>
+
+<div class="dot">
+    Dotted border
+</div>
+<br>
+<span>Using flower images as samples on our HTML and CSS tutorials</span>
+    <img src="images/beauty flower.jpg">
+    <br>
+<p3>
+    Praticals on CSS width and height will be highlighted with these samples, we will be exploring the max width and
+    and height under CSS elements and properties.
+</p3>
+<br>
+<i class="material-icons">cloud</i>
+<i class="material-icons">favorite</i>
+<i class="material-icons">attachment</i>
+<i class="material-icons">computer</i>
+<i class="material-icons">traffic</i>
+<br>
+<a href="https://www.w3schools.com/css/css_link.asp"></a>
+<div style="overflow-x: auto;">
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contract</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfred Futter</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+       <td>Francisco Chang</td>
+       <td>Mexico</td>
+    </tr>
+</table>
+</div>
+<p></p>
+<table>
+    <tr>
+        <th>Company</th>
+        <td>Alfred Futter</td>
+        <td>Centro comercial Moctezuma</td>
+    </tr>
+    <tr>
+        <th>Contract</th>
+        <td>Maria Anders</td>
+        <td>Francisco Chang</td>
+    </tr>
+    <tr>
+        <th>Country</th>
+        <td>Germany</td>
+       <td>Mexico</td>
+    </tr>
+</table>
+<ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul>        
+<p></p>
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol>       
+<div>
+<dl>
+<dt>Coffee</dt>
+<dd>- black not hot</dd>
+<dt>Milk</dt>
+<dd>White cold drink</dd>
+</dl>       
+</div>
+
+<style>
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+    div.gallery:hover {
+        border: 1px solid #777
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    div.disc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+
+<div class="city">
+<h2>Paris</h2>
+<p>Paris is the capital of France</p>
+</div>
+<iframe src="url" title="description"></iframe>
+<form>
+<label for="fname">First name:</label>
+<br>
+<input type="text" id="fname" name="fname">
+<br>
+<label for="lname">Last name:</label>
+<br>
+<input type="text" id="lname" name="lname">
+<p>Your Favourite Language</p>
+<form>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label>
+<br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css">CSS</label>
+<br>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript">JavaScript</label>
+</form>
+<br>
+<form>
+<input type="checkbox" id="vehicle 1" name="vehicle1" value=" Bike">
+<label for="vehicle 1">I have a bike</label>
+<br>
+<input type="checkbox" id="vehicle 2" name="vehicle 2" value="Car">
+<label for="vehicle 2">I have a car</label>
+<br>
+<input type="checkbox" id="vechile 3" name="vehicle 3" value="Boat">
+<label for="vehicle 3">I have a Boat</label>
+</form>
+<form action="/action_page.php">
+<label for="fname">First name:</label>
+<br>
+<input type="text" id="fname" name="fname" value="John">
+<br>
+<label for="lname">Last name:</label>
+<br>
+<input type="text" id="lname" name="lname" value="Doe">
+<br><br>
+<input type="submit" value="submit">
+</form>
+<div>
+    The descensdant selector matches all elements that are descendants of a specified element.
+    The following example selects all <p> elements inside <div> elements: 
+</div>
+</body>
+</html>
